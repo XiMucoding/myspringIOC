@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans >
+
+    <bean id="userService" class="com.lzk.service.Imp.UserServiceImp">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+    <bean id="userDao" class="com.lzk.dao.Imp.UserDaoImp">
+        <property name="username" value="lzk"></property>
+        <property name="password" value="12345"></property>
+    </bean>
+
+</beans>
