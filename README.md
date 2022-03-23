@@ -6,11 +6,11 @@
 
 1. 先build模块
 
-![image-20220323233453125](E:\Typora（笔记）\images\image-20220323233453125.png)
+![image-20220323233453125](https://user-images.githubusercontent.com/91119649/159738873-2bce6111-f318-4a10-8b31-6cf87ad5e05e.png)
 
 2. 再引入包
 
-![image-20220323233714072](E:\Typora（笔记）\images\image-20220323233714072.png)
+![image-20220323233714072](https://user-images.githubusercontent.com/91119649/159738931-90b11e1d-d6cf-4f11-8936-d7cbb8227b26.png)
 
 
 
@@ -23,17 +23,18 @@
 
 spring框架其实使用到了很多设计模式，如AOP使用到了代理模式，选择JDK代理或者CGLIB代理使用到了策略模式，还有适配器模式，装饰者模式，观察者模式等。
 
-![image-20220320151040352](C:\Users\21092\AppData\Roaming\Typora\typora-user-images\image-20220320151040352.png)
+![image-20220320151040352](https://user-images.githubusercontent.com/91119649/159739013-82beb9f2-4ef1-40f7-84fd-4010b4d5888f.png)
 
 ## bean相关的pojo类
 
-![image-20220320144246853](C:\Users\21092\AppData\Roaming\Typora\typora-user-images\image-20220320144246853.png)
+![image-20220320144246853](https://user-images.githubusercontent.com/91119649/159739153-d388ecda-6334-431e-b2a9-378b22aab5f4.png)
 
 ### 1.Property
 
 > applicationContext.xml 中bean的下一级property的映射表
 
-![image-20220319162854008](C:\Users\21092\AppData\Roaming\Typora\typora-user-images\image-20220319162854008.png)
+![image-20220319162854008](https://user-images.githubusercontent.com/91119649/159739690-dde88391-45c8-46d4-935b-1edae3720eab.png)
+
 
 ### 2.MutableProperty
 
@@ -56,7 +57,7 @@ class MutableProperty implements Iterable<Property> {
 
 ### 3.Bean 
 
-![image-20220319210720111](C:\Users\21092\AppData\Roaming\Typora\typora-user-images\image-20220319210720111.png)
+![image-20220319210720111](https://user-images.githubusercontent.com/91119649/159739221-95e53284-374b-4f22-a75a-f1eaa2d1c62c.png)
 
 ## 注册表相关类
 
